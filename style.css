@@ -1,0 +1,36 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+/* Importing all components file */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/bouton.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colours */
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(240,240,240);
+}
+h1, h2, h3 {
+	font-family: 'Odibee Sans', cursive;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.conteneur{
+  width: 300px;
+  height: 300px;
+  border: 1px #aaa solid; 
+  text-align: center;
+}
